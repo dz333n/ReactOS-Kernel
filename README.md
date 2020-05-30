@@ -1,3 +1,8 @@
+# ReactOS Kernel
+ - Excluded all Win32 modules from build;
+ - (WIP) Added [own NT shell program (stub)]();
+ - Syncing with upstream through [master](https://github.com/feel-the-dz3n/ReactOS-Kernel/tree/master) branch.
+
 <p align=center>
   <a href="https://reactos.org/">
     <img alt="ReactOS" src="https://reactos.org/wiki/images/0/02/ReactOS_logo.png">
