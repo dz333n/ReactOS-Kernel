@@ -194,6 +194,15 @@ _main(
         WaitForKeyboard(KeyboardHandle, 10);
         NtClose(KeyboardHandle);
     }
+    else
+    {
+        LARGE_INTEGER Timeout;
+        INT Len = PrintString("Sleeping 10 seconds...\r");
+        Timeout.QuadPart = -10*1000*1000*10; // 10 secs
+        NtDelayExecution(FALSE, &Timeout);
+
+        EraseLine(Len);
+    }
 
     PrintString("*mainmoduledotexe left, lol*\r\n");
 
