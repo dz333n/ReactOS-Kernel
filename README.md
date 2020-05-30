@@ -1,6 +1,6 @@
 # ReactOS Kernel
  - Excluded all Win32 modules from build;
- - (WIP) Added [own NT shell program (stub)]();
+ - Added [own NT shell program (stub)](https://github.com/feel-the-dz3n/ReactOS-Kernel/tree/win32less/base/system/smss_new);
  - Syncing with upstream through [master](https://github.com/feel-the-dz3n/ReactOS-Kernel/tree/master) branch.
 
 <p align=center>
